@@ -87,7 +87,7 @@ To ensure system's efficiency I have decided to implement an algorithm that uses
 The cost function is used to calculate the efficiency of assigning a specific elevator to a request. It takes into account three factors:
 1. **Distance cost**: he absolute difference between the current floor of the elevator and the origin floor of the request.
 2. **Load cost**: the number of destinations the elevator currently has.
--3.**Direction cost**: a penalty added if the request's origin is in the opposite direction of the elevator's current travel direction.
+3. **Direction cost**: a penalty added if the request's origin is in the opposite direction of the elevator's current travel direction.
 The elevator that minimizes the cost function for a given request is chosen to handle it.
 
 ### Use of AVL Tree
